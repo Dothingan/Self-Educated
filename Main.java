@@ -14,6 +14,10 @@ class Main{
         rectangle1.getArea();
 
 
+        //abstract
+        Dog d1 = new Dog();
+        d1.makeSound();
+
         
     }
 }
