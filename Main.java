@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import OOP.LopVaPhuongThucTruuTuong.*;
 
 class Main{
@@ -18,6 +20,13 @@ class Main{
         Dog d1 = new Dog();
         d1.makeSound();
 
+        //interface
+        rectangle rec1 = new rectangle();
+        System.out.println("enter length and breadth: ");
+        Scanner input = new Scanner(System.in);
+        int length = input.nextInt();
+        int breadth = input.nextInt();
+        rec1.getArea1(length, breadth);
         
     }
 }
