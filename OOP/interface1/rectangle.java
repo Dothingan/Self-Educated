@@ -1,4 +1,4 @@
-package OOP.LopVaPhuongThucTruuTuong;
+package OOP.interface1;
 
 //sd tu khoa implements de trien khai interface
 

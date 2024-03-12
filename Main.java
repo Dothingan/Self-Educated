@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 import OOP.LopVaPhuongThucTruuTuong.*;
+import OOP.interface1.*;
 
 class Main{
     public static void main(String[] args){
