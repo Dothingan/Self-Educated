@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <style>  
+     /* table{
+      border-collapse: collapse;
+    } */
+    table, th, td {
+      border:1px solid black;
+    }
+        body {
+          background-image: url('example_img_girl.jpg');
+          background-repeat: no-repeat;
+        }
+        </style>
+    <table>
+      <tr><!-- tr: table row-->
+        <th>Person 1</th> <!--th: table headers-->
+        <th>Person 2</th>
+        <th>Person 3</th>
+      </tr>
+      <tr>
+        <td>Emil</td> <!--td: table data-->
+        <td>Tobias</td>
+        <td>Linus</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>14</td>
+        <td>10</td>
+      </tr>
+    </table>
+        <!-- de tranh lap lai
+        Nếu bạn muốn hình nền bao phủ toàn bộ phần tử, bạn có thể đặt thuộc background-sizetính thành cover.
+
+        Ngoài ra, để đảm bảo toàn bộ phần tử luôn được che phủ, hãy đặt background-attachmentthuộc tính thànhfixed:
+        <style>
+        body {
+        background-image: url('img_girl.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+        </style>
+        -->
+</head>
+<body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+..........<br>
+tieu de html duoc xac dinh bang the h1 to h6, theo thu tu quan trong giam dan
+<br>..................<br>
+
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <a href="https://www.facebook.com/">This is a link</a>
+    <img src = "2.jpg" alt = "facebook.com" width="100" height="100"><br>
+    <h1 style="border:2px solid Tomato; padding: 10px; margin: 10px">Hello World</h1>
+    <a href ="mailto: 22010105@st.phenikiaa-uni.edu.vn">Send email</a>
+
+    <br>
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+    <br>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+    <p><a href="#C4">Jump to Chapter 4</a></p>
+    <p><a href="#C10">Jump to Chapter 10</a></p>
+
+    <h2>Chapter 1</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 2</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 3</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2 id="C4">Chapter 4</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+        The image will float to the right of the text.</p>
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map><br>
+    rect- xác định một vùng hình chữ nhật<br>
+    circle- xác định vùng hình tròn<br>
+    poly- xác định một vùng đa giác<br>
+    default- xác định toàn bộ khu vực<br>
+    <map name="workmap">
+        <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+      </map>
+      
+      <script>
+      function myFunction() {
+        alert("You clicked the coffee cup!");
+      }
+      </script>
+      <p style="background-image: url('img_girl.jpg');">baka</p>
+
+      browser will use the first image format it recognizes.
+      <picture>
+        <source media="(min-width: 650px)" srcset="img_food.jpg">
+        <source media="(min-width: 465px)" srcset="img_car.jpg">
+        <img src="img_girl.jpg">
+      </picture>
+
+      <picture>
+        <source srcset="img_avatar.png">
+        <source srcset="img_girl.jpg">
+        <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+      </picture>
+    <!--
+    padding: khoang trang trong duong vien
+    margin: khoang trang ngoai duong vien
+    h: xac dinh mot tieu de <br>
+    p: xac dinh mot doan van ban<br>
+    html khong xac dinh chu hoa va chu thuong<br>+
+    Thuộc tính bắt buộc altcho <img> thẻ chỉ định văn bản thay thế cho hình ảnh nếu hình ảnh vì lý do nào đó không thể hiển thị. Điều này có thể do kết nối chậm hoặc lỗi thuộc tính srchoặc do người dùng sử dụng trình đọc màn hình.<br>
+    Thẻ <hr>xác định điểm ngắt theo chủ đề trong trang HTML và thường được hiển thị dưới dạng quy tắc ngang.
+    the <pre>bao toan tung dau phay lan khoang cach.
+    
+    font-size: kich co
+    font-family: phong chu
+    text-align: can le 
+    sub: chu nho duoi
+    sup: chu nho tren
+    q: trich dan ""
+    blockquote: thut le
+    abbr: viet tat. vd: <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    address: Văn bản trong phần <address>tử thường hiển thị ở dạng in nghiêng và trình duyệt sẽ luôn thêm dấu ngắt dòng trước và sau phần <address>tử.
+    cite: xac dinh tieu de cua 1 tac pham, in nghieng
+    <p><bdo dir="ltl">Văn bản từ trái sang phải</bdo></p>
+    <p><bdo dir="rtl">Văn bản từ phải sang trái</bdo></p>
+    <b>- Chữ in đậm
+    <strong>- Văn bản quan trọng
+    <i>- Văn bản in nghiêng
+    <em>- Đoạn văn bản được nhấn mạnh
+    <small>- Văn bản nhỏ hơn
+    <ins>- Đã chèn văn bản
+    <del>- Văn bản đã xóa
+    <mark>- Văn bản được đánh dấu
+
+    Thuộc targettính có thể có một trong các giá trị sau:
+
+        _self- Mặc định. Mở tài liệu trong cùng cửa sổ/tab khi tài liệu được nhấp vào
+        _blank- Mở tài liệu trong cửa sổ hoặc tab mới
+        _parent- Mở tài liệu trong khung cha
+        _top- Mở tài liệu ở chế độ toàn bộ cửa sổ
+    Sử dụng idthuộc tính (id=" value ") để xác định dấu trang trong một trang
+    Sử dụng hrefthuộc tính (href="# value ") để liên kết tới bookmark
+
+    -->
+</body>
+</html>
