@@ -8,11 +8,40 @@
 
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <style>  
-     /* table{
-      border-collapse: collapse;
-    } */
+    
+    /* li {
+      float: left;
+    }  hien thi ds theo chieu ngang*/
+    tr:nth-child(even){
+      background-color: #96D4D4;
+    }
+    tr:hover {background-color: #D6EEEE;} <!--highlight-->
     table, th, td {
       border:1px solid black;
+      border-collapse: collapse;
+      border-color: #96D4D4;
+      padding: 10px;
+      /* border-radius: 10px; <!--bo goc--> 
+         th, td {
+            border-style: dotted;
+          }
+          dotted     
+          dashed     
+          solid     
+          double     
+          groove     
+          ridge     
+          inset     
+          outset     
+          none     
+          hidden  
+
+          padding: kc chu va vien
+          border-spacing: kc giua moi o
+          rowspan: mo rong hang
+          colspan: mo rong cot
+          <ol type="A">... 
+*/
     }
         body {
           background-image: url('example_img_girl.jpg');
@@ -20,8 +49,13 @@
         }
         </style>
     <table>
+      <colgroup>
+        <col span="2" style="background-color: #D6EEEE">
+        <col span="3" style="background-color: pink">
+        <!-- <col span="3" style="visibility: collapse">  //an cot -->
+      </colgroup>
       <tr><!-- tr: table row-->
-        <th>Person 1</th> <!--th: table headers-->
+        <th colspan ="2">Person 1</th> <!--th: table headers-->
         <th>Person 2</th>
         <th>Person 3</th>
       </tr>
@@ -47,10 +81,49 @@
         background-attachment: fixed;
         background-size: cover;
         }
+        tr {
+          border-bottom: 1px solid #ddd; <!--chi co duong vien nam ngang
+        }
         </style>
+
+        <style>
+        div {
+          width: 30%;              
+          display: inline-block; doi block thanh inline-block de k bi chong len nhau nua
+        }
+        </style>  
+
         -->
 </head>
 <body>
+  <ol start="50">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+  
+  <ol type="I" start="50">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  <dl> <!--dl: ds mo ta-->
+    <dt>Coffee</dt><!--name-->
+    <dd>- black hot drink</dd><!--dinh nghia-->
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>
+  <ul style="list-style-type:disc;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  <!--list-style-type:disc, circle, square, none-->
     <h1>My First Heading</h1>
     <p>My first paragraph.</p>
 ..........<br>
@@ -120,6 +193,7 @@ tieu de html duoc xac dinh bang the h1 to h6, theo thu tu quan trong giam dan
         <source srcset="img_girl.jpg">
         <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
       </picture>
+      <a href="#" title="Lên đầu trang"/>Lên đầu trang</a>;
     <!--
     padding: khoang trang trong duong vien
     margin: khoang trang ngoai duong vien
