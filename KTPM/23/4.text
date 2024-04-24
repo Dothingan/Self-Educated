@@ -1,0 +1,32 @@
+Quản lý(app, web,...)
+        user manerger: tài khoản
+        Chức năng quản trị
+        Dữ liệu(CSDL)
+        Bảo mật
+    Quản lý bán hàng
+        +Sản phẩm
+        +Thông kê
+        +Order
+    Quản lý học sinh, sinh viên
+        +Information
+        +Phòng ban
+        +Kết quả
+    Quản lý nhà hàng
+        +Thống kê
+        +Doanh Thu
+        +...
+
+    1. Mô hình hóa hệ thống
+    2. Mô hình hóa chức năng
+    3. User-case(Mô hình mô tả chức năng)
+    4. Process model
+    5. Data model
+    6. Activity Flow
+    7. Sequece Flow
+    8. Data(CSDL)
+    9.UI -> figma
+    UMl->draw.io
+    Cần có các bảng mô tả
+        +
+        +Hình vẽ
+        +User case
