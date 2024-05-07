@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            width: fit-content;
+        }
+        table, tr, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+        }
+        table{
+            width: 95%;
+            margin-left: 16px;
+            margin-bottom: 16px;
+        }
+
+
+    </style>
+</head>
+<body style="border: solid;">
+    <h1 style="color: green;">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    <table style="background-color: rgb(170, 239, 170); color: green; ">
+    <tr>
+        <td>Họ và tên</td>
+        <td><input type="text" value="Đỗ Thị Ngân"></td>
+    </tr>
+    <tr>
+        <td>Địa chỉ</td>
+        <td><input type="text" value="Thanh Oai, Hà Nội"></td>
+    </tr>
+    <tr>
+        <td>Điện thoại</td>
+        <td><input type="text" value="0398756652"></td>
+    </tr>
+    <tr>
+        <td>Phái</td>
+        <td>
+            <input type="radio" value="nam" id="nam">
+            <label for="nam">Nam</label>
+            <input type="radio" value="nu" id="nu" checked>
+            <label for="nu">Nữ</label>
+        </td>
+    </tr>
+    <tr>
+        <td>Nghề nghiệp</td>
+        <td>
+            <select name="nn">
+                <option selected>Giáo viên</option>
+        </td>
+    </tr>
+    <tr>
+        <td>Chọn sản phẩm tham gia</td>
+        <td>
+            <select name="sp", size="4", multiple>
+                <option selected>Kem đánh răng</option>
+                <option>Bột giặt</option>
+                <option selected>Dầu gội đầu</option>
+                <option>Sữa tắm</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Số người dự đoán tham gia</td>
+        <td><input type="text" value="250000"></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center" ><button style="background-color: rgb(204, 204, 204);">Đồng ý</button></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center" style="color: red;">Bạn đã đăng ký thành công!!!</td>
+    </tr>
+    </table>
+    
+</body>
+</html>

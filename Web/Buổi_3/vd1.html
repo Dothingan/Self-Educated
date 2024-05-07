@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+    <form action="">
+        <input type="text" name="use" value="" placeholder="ten" required>
+
+        <input type="password" name="password" value="" placeholder="nhap password">
+        <br>
+        <input type="button" value="Dang nhap">
+        <br>
+        hay chon mau yeu thich
+        <input type="color">
+        muc do hoan thanh
+        <input type="range" name="point" min="0" max="10">
+        Que quan:
+        <select name="que quan" id="">
+            <option value="Ha noi">Ha Noi</option>
+            <option selected value="hcm">HCM</option>
+        </select>
+
+        <fieldset>
+            <legend>Academic information</legend>
+            Degree <select name="degree">
+                <option selected>Master of Business Adiministration</option>
+                <!-- <option>Nomal</option> -->
+            </select>
+
+            Student ID <input type="text" name="MSSV" value="" placeholder="Nhap MSSV">
+
+            Classes attended <select name="Hocphan" size="5" multiple>
+                <option>Geography</option>
+                <option>Mathematics</option>
+                <option>English</option>
+                <option>Web</option>
+                <option>KTPM</option>
+                <option>Nihongo</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Details</legend>
+            First Name <input type="text" name="fname" value="" placeholder="Nhap fname" required>
+            <!-- <input type="text" tabindex="10"> -->
+            Last Name <input type="text" name="lname" value="" placeholder="Nhap lname" required>
+
+            Gender: <input type="radio" name="sex" id="male" value="male"><label for="male">Male</label><input type="radio" name="sex" id="female" checked value="female"><label for="female">Female</label>
+
+            Email <input type="email">
+        </fieldset>
+
+<textarea rows="5" cols="135">TERMS AND CONDITIONS...
+</textarea>
+        <button>Send Form</button>  <button>Clear Form</button>
+    </form>
+</pre>
+</body>
+</html>
